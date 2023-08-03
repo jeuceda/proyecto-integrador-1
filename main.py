@@ -25,12 +25,12 @@ def limpiar_terminal():
 def imprimir_numero(numero):
   print(numero)
 
-numero = 0
+num = 0
 
-while numero <= 50:
+while num <= 50:
   limpiar_terminal()
-  imprimir_numero(numero)
-  numero += 1
+  imprimir_numero(num)
+  num += 1
   entrada = input("Pulse n para continuar: ")
   if entrada == "n":
     continue
